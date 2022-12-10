@@ -32,7 +32,7 @@ class PrintJob
 
 	void removeJob()
 	{
-		if(Front>Rear || Rear==-1)System.out.println("PrintJob is empty");
+		if(Front>Rear || Rear==-1){System.out.println("PrintJob is empty");Front=Rear=-1;}
 		else
 		{
 			System.out.println("Removed "+job[Front]);
